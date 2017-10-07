@@ -6,10 +6,10 @@ import { Component } from '@angular/core';
 })
 export class AlertComponent {
 
+    public modifier = "warning"
 
-
-    public Title = 'Si è verificato un errore';
-    public Description = 'Voluptate ut voluptatem sit earum ipsam sint. Aut unde explicabo eos dolor rerum eum et. Maxime aliquam deserunt. Non officiis eos fugit in perferendis.';
+    public title = 'Si è verificato un errore';
+    public description = 'Voluptate ut voluptatem sit earum ipsam sint. Aut unde explicabo eos dolor rerum eum et. Maxime aliquam deserunt. Non officiis eos fugit in perferendis.';
 
     constructor() {
     }
