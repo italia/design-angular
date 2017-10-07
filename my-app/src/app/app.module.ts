@@ -1,3 +1,4 @@
+import { ConstantService } from './constant.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -16,3 +17,5 @@ import { AlertComponent } from './alert/alert.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+

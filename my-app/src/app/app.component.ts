@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ConstantService } from './constant.service';
+
 
 @Component({
   selector: 'app-root',
