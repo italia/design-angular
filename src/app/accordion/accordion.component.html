@@ -1,10 +1,10 @@
 <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="accordion-1">
-    <div *ngFor="let accordion of accordions, let i = index">
+    <div *ngFor="let a of accordionsList, let i = index">
         <h2 class="Accordion-header js-fr-accordion__header fr-accordion__header" id="accordion-header-{{i}}" >
-            <span class="Accordion-link">{{accordion.title}}</span>
+            <span class="Accordion-link">{{a.title}}</span>
         </h2>
         <div id="accordion-panel-{{i}}" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
-            <p class="u-layout-prose u-color-grey-90 u-text-p u-padding-r-all">{{accordion.text}}</p>
+            <p class="u-layout-prose u-color-grey-90 u-text-p u-padding-r-all">{{a.text}}</p>
         </div>
     </div>
 </div>
