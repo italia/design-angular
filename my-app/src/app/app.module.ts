@@ -4,11 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AlertComponent } from './alert/alert.component';
+import { AccordionComponent } from './accordion/accordion.component';
 
 @NgModule({
   declarations: [
       AppComponent,
-      AlertComponent
+      AlertComponent,
+      AccordionComponent
+        
   ],
   imports: [
     BrowserModule
