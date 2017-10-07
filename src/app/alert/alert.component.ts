@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
 })
 export class AlertComponent {
 
-    @Input() alert: Alert;
+    @Input() alertItem: Alert;
 
     constructor() {
     }
