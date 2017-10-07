@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { ConstantService } from './constant.service';
+import { Alert, EAlertType } from "./alert/alert.modules";
 
 
 @Component({
@@ -8,9 +9,10 @@ import { ConstantService } from './constant.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-    public title = 'app';
-    public description = "prova 1";
+
+    public Alert1: Alert;
 
     constructor() {
+        this.Alert1 = new Alert("warning", EAlertType.warning, "Warning 1", "Descrizione 1");
     }
 }

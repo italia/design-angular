@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { EAlertType, Alert, AlertContext } from './alert.modules'
 
 @Component({
     selector: 'alert',
@@ -6,10 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AlertComponent {
 
-    public modifier = "warning"
-
-    public title = 'Si è verificato un errore';
-    public description = 'Voluptate ut voluptatem sit earum ipsam sint. Aut unde explicabo eos dolor rerum eum et. Maxime aliquam deserunt. Non officiis eos fugit in perferendis.';
+    @Input() alert: Alert;
 
     constructor() {
     }
