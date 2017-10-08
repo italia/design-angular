@@ -3,6 +3,7 @@ import { ConstantService } from './constant.service';
 import { Alert, EAlertType } from "./alert/alert.component";
 import { Accordion } from './accordion/accordion.component';
 import { Breadcrumb } from './breadcrumb/breadcrumb.component';
+import { Button, EButtonModifier, EButtonType } from './button/button.component';
 
 
 @Component({
@@ -14,6 +15,7 @@ export class AppComponent {
     public accordionsTest: Accordion[] = [];
     public alertsTest: Alert[] = [];
     public breadcrumbsTest: Breadcrumb[] = [];
+    public buttonTest: Button[] = [];
     
 
     constructor() {
@@ -37,6 +39,13 @@ export class AppComponent {
             new Breadcrumb("http://www.barsanti.gov.it", "devCoseBelle"),
             new Breadcrumb("http://www.barsanti.gov.it", "arcobaleni"),
             new Breadcrumb("http://www.barsanti.gov.it", "hh")
+        ]
+
+        this.buttonTest = [
+            new Button("BTN 1", "Testo btn 1", EButtonModifier.Default, EButtonType.UTextRXS),
+            new Button("BTN 2", "Testo btn 2", EButtonModifier.Info, EButtonType.UTextRXS),
+            new Button("BTN 3", "Testo btn 3", EButtonModifier.Warning, EButtonType.UTextRXS),
+            new Button("BTN 4", "Testo btn 4", EButtonModifier.Default, EButtonType.UTextRXS, true)
         ]
         
     }
