@@ -79,6 +79,10 @@ var config = {
       test: /(\.jsx|\.js)$/,
       loader: 'eslint-loader',
       exclude: /node_modules/
+    }, {
+      test: /(\.ts)$/,
+      loader: 'typescript-eslint-parser',
+      exclude: /node_modules/
     }]
   },
   resolve: {
