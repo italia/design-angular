@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
 })
 export class BulletComponent {
 
-    @Input() items: Bullet[] = [];
+    @Input() bulletList: Bullet[] = [];
         
     constructor() {
     }

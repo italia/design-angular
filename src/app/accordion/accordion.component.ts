@@ -4,10 +4,11 @@ import { Component, Input } from '@angular/core';
     selector: 'accordion',
     templateUrl: './accordion.component.html'
 })
+
 export class AccordionComponent {
 
     @Input() accordionsList: Accordion[] = [];
-        
+    
     constructor() {
     }
 }
