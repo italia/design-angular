@@ -21,7 +21,7 @@ import { DropdownComponent } from './dropdown/dropdown.component';
       ButtonComponent,
       CalloutComponent,
       DialogComponent,
-      CookieBarComponent
+      CookieBarComponent,
       DialogComponent,
       DropdownComponent
   ],
