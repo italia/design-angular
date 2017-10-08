@@ -1,34 +1,32 @@
-//import { Component, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
-//@Component({
-//    selector: 'dropdown',
-//    templateUrl: './dropdown.component.ng.html'
-//})
-//export class AlertComponent {
+@Component({
+   selector: 'dropdown',
+   templateUrl: './dropdown.component.ng.html'
+})
+export class DropdownComponent {
 
-//    @Input() dropdownItem: Dropdown;
+   @Input() dropdownElement: Dropdown;
 
-//    constructor() {
-//    }
-//}
+   constructor() {
+   }
+}
 
-//export enum EAlertType {
-//    error,
-//    warning,
-//    success,
-//    info
-//}
+export class Dropdown {
+   constructor(
+       public items: DropdownItem[] = [],
+       public name: string = ""
+   ) {
+   }
+}
 
-//export class Dropdownw {
-//    public context: DropdownContex;
+export class DropdownItem {
+    constructor(
+        public selected: boolean = false,
+        public text: string = "Item",
+        public value: string = "Value"
+    ) {
 
-//    constructor(
-//        public name: string,
-//        type: EAlertType,
-//        text: string,
-//        description: string,
-//        icon: string = ""
-//    ) {
-//        this.context = new DropdownContex(type, text, description, icon);
-//    }
-//}
+        
+    }
+}

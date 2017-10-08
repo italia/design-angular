@@ -7,6 +7,7 @@ import { Button, EButtonModifier, EButtonType } from './button/button.component'
 import { Callout, ECalloutType } from './callout/callout.component';
 import { Dialog } from './dialog/dialog.component';
 import { CookieBar } from  './cookiebar/cookiebar.component';
+import { Dropdown, DropdownItem } from './dropdown/dropdown.component';
 
 
 @Component({
@@ -23,6 +24,7 @@ export class AppComponent {
     public calloutTest: Callout[] = [];
     public dialogTest: Dialog;
     public cookieBarTest: CookieBar;
+    public dropdownTest: Dropdown[] = [];
 
     constructor() {
         // this.accordionsTest = [
@@ -62,6 +64,14 @@ export class AppComponent {
         ]
 
         this.dialogTest = new Dialog("Dialog", "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla laoreet tortor vel auctor porta. Nullam aliquam dui mattis arcu dictum, et dignissim lectus viverra. Integer eu diam sollicitudin, euismod nisi nec, tincidunt ligula. Donec ornare magna tortor, sed placerat elit vestibulum et. Vestibulum egestas quis nisl sit amet pellentesque. Cras leo sem, sodales id feugiat sed, fringilla non ligula. Etiam vel pulvinar tellus. Quisque mi nisl, dictum convallis malesuada sed, porttitor at libero. Sed quis sagittis quam. Suspendisse sit amet mi non diam interdum dapibus id vel nisi. Praesent placerat, lacus nec consequat rhoncus, tellus mauris tristique eros, nec malesuada elit nunc a nibh. Nullam venenatis nibh id neque suscipit congue. Proin vitae venenatis sapien. Cras ornare elit vehicula quam vestibulum pretium. Sed malesuada id elit pretium dictum. Curabitur tincidunt odio non nisi efficitur faucibus", "Apri");
-        this.cookieBarTest = new CookieBar("Questo sito utilizza cookie tecnici, analytics e di terze parti. Proseguendo nella navigazione accetti l’utilizzo dei cookie", "Accetto", "https://www.google.it");
+        this.cookieBarTest = new CookieBar("Questo sito utilizza cookie tecnici, analytics e di terze parti. Proseguendo nella navigazione accetti líutilizzo dei cookie", "Accetto", "https://www.google.it");
+        
+        this.dropdownTest = [
+            new Dropdown([
+                new DropdownItem(true, "Milano", "1"),
+                new DropdownItem(false, "Roma", "2"),
+                new DropdownItem(false, "Torino", "3")
+            ], "dropdown-esempio")
+        ];
     }
 }

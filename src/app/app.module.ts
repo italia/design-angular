@@ -9,6 +9,7 @@ import { ButtonComponent } from './button/button.component';
 import { CalloutComponent } from './callout/callout.component';
 import { DialogComponent } from './dialog/dialog.component';
 import { CookieBarComponent } from './cookiebar/cookiebar.component';
+import { DropdownComponent } from './dropdown/dropdown.component';
 
 
 @NgModule({
@@ -21,6 +22,8 @@ import { CookieBarComponent } from './cookiebar/cookiebar.component';
       CalloutComponent,
       DialogComponent,
       CookieBarComponent
+      DialogComponent,
+      DropdownComponent
   ],
   imports: [
     BrowserModule
