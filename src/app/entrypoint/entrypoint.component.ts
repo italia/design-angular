@@ -4,7 +4,7 @@ import { Component, Input } from '@angular/core';
     selector: 'entrypoint',
     templateUrl: './entrypoint.component.html'
 })
-export class AlertComponent {
+export class EntryComponent {
 
     @Input() entrypointItem: Entrypoint;
 

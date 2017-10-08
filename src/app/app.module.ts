@@ -7,6 +7,7 @@ import { AccordionComponent } from './accordion/accordion.component';
 import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { ButtonComponent } from './button/button.component';
 import { CalloutComponent } from './callout/callout.component';
+import { DialogComponent } from './dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CalloutComponent } from './callout/callout.component';
       AccordionComponent,
       BreadcrumbComponent,
       ButtonComponent,
-      CalloutComponent
+      CalloutComponent,
+      DialogComponent
   ],
   imports: [
     BrowserModule
