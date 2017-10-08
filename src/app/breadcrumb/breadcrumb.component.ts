@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
     selector: 'breadcrumb',
-    templateUrl: './breadcrumb.component.html'
+    templateUrl: './breadcrumb.component.ng.html'
 })
 export class BreadcrumbComponent {
 

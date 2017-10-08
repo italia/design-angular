@@ -3,7 +3,7 @@ import Fraccordion from 'fr-accordion';
 
 @Component({
     selector: 'accordion',
-    templateUrl: './accordion.component.html'
+    templateUrl: './accordion.component.ng.html'
 })
 
 export class AccordionComponent {

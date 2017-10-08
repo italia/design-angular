@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
     selector: 'bullet',
-    templateUrl: './bullet.component.html'
+    templateUrl: './bullet.component.ng.html'
 })
 export class BulletComponent {
 

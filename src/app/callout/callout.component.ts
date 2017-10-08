@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
     selector: 'callout',
-    templateUrl: './callout.component.html'
+    templateUrl: './callout.component.ng.html'
 })
 export class CalloutComponent {
 

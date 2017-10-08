@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
     selector: 'modal',
-    templateUrl: './dialog.component.html'
+    templateUrl: './dialog.component.ng.html'
 })
 export class DialogComponent {
 

@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
     selector: 'alert',
-    templateUrl: './alert.component.html'
+    templateUrl: './alert.component.ng.html'
 })
 export class AlertComponent {
 

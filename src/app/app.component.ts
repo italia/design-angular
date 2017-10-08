@@ -10,7 +10,7 @@ import { Dialog } from './dialog/dialog.component';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html'
+  templateUrl: './app.component.ng.html'
 })
 export class AppComponent {
 

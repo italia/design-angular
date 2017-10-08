@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
     selector: 'btn',
-    templateUrl: './button.component.html'
+    templateUrl: './button.component.ng.html'
 })
 export class ButtonComponent {
 

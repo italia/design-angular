@@ -2,7 +2,7 @@
 
 //@Component({
 //    selector: 'dropdown',
-//    templateUrl: './dropdown.component.html'
+//    templateUrl: './dropdown.component.ng.html'
 //})
 //export class AlertComponent {
 
