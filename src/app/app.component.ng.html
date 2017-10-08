@@ -1,6 +1,20 @@
-<!-- <accordion [accordionsList]="accordionsTest"></accordion> -->
-<alert [alertItem]="a" *ngFor="let a of alertsTest"></alert>
-<breadcrumb [breadcrumbList]="breadcrumbsTest"></breadcrumb>
-<btn [buttonItem]="b" *ngFor="let b of buttonTest"></btn>
-<callout [calloutItem]="c" *ngFor="let c of calloutTest"></callout>
-<!--<modal [dialogItem]="dialogTest"></modal>-->
+<div class="half-container">
+  <h2>Alerts</h2>
+  <alert [alertItem]="a" *ngFor="let a of alertsTest"></alert>
+</div>
+<div class="half-container">
+  <h2>Breadcrumbs</h2>
+  <breadcrumb [breadcrumbList]="breadcrumbsTest"></breadcrumb>
+</div>
+<div class="half-container">
+  <h2>Buttons</h2>
+  <btn [buttonItem]="b" *ngFor="let b of buttonTest"></btn>
+</div>
+<div class="half-container">
+  <h2>Callout</h2>
+  <callout [calloutItem]="c" *ngFor="let c of calloutTest"></callout>
+</div>
+<div class="half-container">
+  <h2>CookieBar</h2>
+  <cookiebar [CookieBarItem]="cookieBarTest"></cookiebar>
+</div>

@@ -1,0 +1,10 @@
+.half-container {
+	height: 100vh;
+	width: 100vw;
+	padding: 1em;
+	border-bottom: 5px solid #333;
+}
+
+h2 {
+  margin: 0.5em;
+}
