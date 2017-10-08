@@ -8,6 +8,8 @@ import { BreadcrumbComponent } from './breadcrumb/breadcrumb.component';
 import { ButtonComponent } from './button/button.component';
 import { CalloutComponent } from './callout/callout.component';
 import { DialogComponent } from './dialog/dialog.component';
+import { CookieBarComponent } from './cookiebar/cookiebar.component';
+
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { DialogComponent } from './dialog/dialog.component';
       BreadcrumbComponent,
       ButtonComponent,
       CalloutComponent,
-      DialogComponent
+      DialogComponent,
+      CookieBarComponent
   ],
   imports: [
     BrowserModule
