@@ -4,6 +4,7 @@ import { Alert, EAlertType } from "./alert/alert.component";
 import { Accordion } from './accordion/accordion.component';
 import { Breadcrumb } from './breadcrumb/breadcrumb.component';
 import { Button, EButtonModifier, EButtonType } from './button/button.component';
+import { Callout, ECalloutType } from './callout/callout.component';
 
 
 @Component({
@@ -16,6 +17,7 @@ export class AppComponent {
     public alertsTest: Alert[] = [];
     public breadcrumbsTest: Breadcrumb[] = [];
     public buttonTest: Button[] = [];
+    public calloutTest: Callout[] = [];
     
 
     constructor() {
@@ -46,6 +48,13 @@ export class AppComponent {
             new Button("BTN 2", "Testo btn 2", EButtonModifier.Info, EButtonType.UTextRXS),
             new Button("BTN 3", "Testo btn 3", EButtonModifier.Warning, EButtonType.UTextRXS),
             new Button("BTN 4", "Testo btn 4", EButtonModifier.Default, EButtonType.UTextRXS, true)
+        ]
+
+        this.calloutTest = [
+            new Callout("Callout 1", ECalloutType.should, "Callout 1", "Descrizione Callout 1"),
+            new Callout("Callout 2", ECalloutType.could, "Callout 2", "Descrizione Callout 2"),
+            new Callout("Callout 3", ECalloutType.must, "Callout 3", "Descrizione Callout 3"),
+            new Callout("Callout 4", ECalloutType.example, "Callout 4", "Descrizione Callout 4"),
         ]
         
     }
