@@ -1033,6 +1033,22 @@ forwarded@~0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.1.0.tgz#19ef9874c4ae1c297bcf078fde63a09b66a84363"
 
+fr-accordion@^1.0.5:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/fr-accordion/-/fr-accordion-1.0.6.tgz#2968901ccc461e2843640391dfa994af00073ed4"
+
+fr-bypasslinks@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/fr-bypasslinks/-/fr-bypasslinks-1.0.5.tgz#417f226f45a9d786db1e45b99bf14a10ac0f5d93"
+
+fr-dialogmodal@^1.0.2:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/fr-dialogmodal/-/fr-dialogmodal-1.0.4.tgz#ba72a7adbd3bcb3f9149a8799cbfc9af9d7705c0"
+
+fr-offcanvas@^1.0.4:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/fr-offcanvas/-/fr-offcanvas-1.0.5.tgz#2e1f877353eb3cb603ba1f5721907431351c592e"
+
 fresh@0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/fresh/-/fresh-0.5.0.tgz#f474ca5e6a9246d6fd8e0953cfa9b9c805afa78e"
