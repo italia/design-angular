@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ConstantService } from './constant.service';
 import { Alert, EAlertType } from "./alert/alert.component";
-import { Accordion } from './accordion/accordion.component';
+// import { Accordion } from './accordion/accordion.component';
 import { Breadcrumb } from './breadcrumb/breadcrumb.component';
 import { Button, EButtonModifier, EButtonType } from './button/button.component';
 import { Callout, ECalloutType } from './callout/callout.component';
@@ -14,7 +14,7 @@ import { Dialog } from './dialog/dialog.component';
 })
 export class AppComponent {
 
-    public accordionsTest: Accordion[] = [];
+    // public accordionsTest: Accordion[] = [];
     public alertsTest: Alert[] = [];
     public breadcrumbsTest: Breadcrumb[] = [];
     public buttonTest: Button[] = [];
@@ -22,13 +22,13 @@ export class AppComponent {
     public dialogTest: Dialog;
 
     constructor() {
-        this.accordionsTest = [
-            new Accordion ("aa","aa"),
-            new Accordion ("ba","ba"),
-            new Accordion ("ca","ca"),
-            new Accordion ("da","da"),
-            new Accordion ("ea","ea"),
-        ]
+        // this.accordionsTest = [
+        //     new Accordion ("aa","aa"),
+        //     new Accordion ("ba","ba"),
+        //     new Accordion ("ca","ca"),
+        //     new Accordion ("da","da"),
+        //     new Accordion ("ea","ea"),
+        // ]
 
         this.alertsTest = [
             new Alert("warning", EAlertType.error, "Warning 1", "Descrizione 1"),
