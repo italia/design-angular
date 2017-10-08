@@ -25,11 +25,11 @@ export class Callout {
     constructor(
         public name: string,
         type: ECalloutType,
-        text: string,
+        title: string,
         description: string,
         icon: string = ""
     ) {
-        this.context = new CalloutContext(type, text, description, icon);
+        this.context = new CalloutContext(title, description, type);
     }
 }
 
@@ -37,13 +37,12 @@ export class CalloutContext {
     public modifier: string;
 
     constructor(
-        public type: ECalloutType,
-        public text: string,
+        public title: string,
         public description: string,
-        public icon: string
+        type: ECalloutType
     ) {
 
-        switch (this.type) {
+        switch (type) {
             case ECalloutType.must:
                 this.modifier = "must"
                 break;

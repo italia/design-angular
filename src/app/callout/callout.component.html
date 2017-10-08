@@ -1,5 +1,4 @@
-<div class="Callout Callout--{{ modifier }} u-text-r-xs" role="note">
-    <h2 class="Callout-title u-text-r-l">{{ modifier }}</h2>
-    {% render '@prose--paragraph' %}
+<div class="Callout Callout--{{calloutItem.context.modifier}} u-text-r-xs" role="note">
+    <h2 class="Callout-title u-text-r-l">{{calloutItem.context.title}}</h2>
+    {{calloutItem.context.description}}
   </div>
-  
