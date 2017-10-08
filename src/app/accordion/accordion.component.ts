@@ -13,6 +13,13 @@ export class AccordionComponent {
     constructor(private el: ElementRef) {
     }
 
+    // public open: number = 0;
+
+    // public accordionToggle() {
+    //     this.open = !this.open ? 1 : 0;
+    //     console.log("I am ", (!this.open ? "closed" : "opened" ));
+    // }
+
     ngAfterViewInit() {
         var myAccordion = Fraccordion({
             // String - Use header id on element to tie each accordion panel to its header - see panelIdPrefix
