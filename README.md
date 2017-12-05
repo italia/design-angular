@@ -1,3 +1,5 @@
+NOTE: This repository is a work-in-progress, and not yet ready for production use!
+
 # Minimal Starter with Angular on both Server and Browser Platforms
 
 ## Installation
