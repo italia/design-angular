@@ -1,0 +1,11 @@
+<div class="u-textLeft">
+  <a href="#options" data-menu-trigger="options" class="Button Button--info">{{ dropdownElement.name }}</a>
+  <div id="options" data-menu class="Dropdown-menu u-borderShadow-m u-background-white">
+    <span class="Icon-drop-down Dropdown-arrow u-color-white"></span>
+    <ul class="Linklist">
+      <li *ngFor="let el of dropdownElement.items">
+          <a [attr.href]="el.value" [attr.selected]="el.selected ? true : null" class="u-color-50 u-padding-r-all">{{ el.text }}</a>
+      </li>
+    </ul>
+  </div>
+</div>
